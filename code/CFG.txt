@@ -1,0 +1,32 @@
+identifier, value, if, else, while, do, (, ), {, }, true, false, !, ||, &&, +, -, *, /, %, <, >, <=, >=, ==, !=, =
+S, A, B, C, E, F, G, op, R
+S -> if(A)S else S 
+S -> if(A)S 
+S -> while(A) S 
+S -> do S while(A) 
+S -> {S} 
+S -> R=E
+A -> A || B 
+A -> B
+B -> B && C 
+B -> C
+C -> !C 
+C -> (A) 
+C -> true 
+C -> false 
+C -> E op E
+E -> E + F 
+E -> E - F 
+E -> F
+F -> F * G 
+F -> F / G 
+F -> G
+G -> identifier 
+G -> value
+op -> < 
+op -> > 
+op -> <= 
+op -> >= 
+op -> == 
+op -> !=
+R -> identifier

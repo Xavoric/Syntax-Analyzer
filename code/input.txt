@@ -1,0 +1,8 @@
+if(a<10 && true){
+    b=a+2*2/4;
+}
+else{
+    while(b>=0 || false){
+        b=0;
+    }
+}
